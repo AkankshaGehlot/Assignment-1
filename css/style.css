@@ -1,0 +1,258 @@
+/*header section style*/
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+header div{
+    display: inline-block;
+}
+header #logo{
+    margin: 10px auto 0px 20px;
+}
+/* header #logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+header #user{
+    display: block;
+    float: right;
+    width: 3%;
+    margin: 40px 25px 0px 5px;
+}
+header .notification{
+    float: right;
+    width: 8%;
+    margin: 50px auto 0px 5px;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+header .notification img{
+    width: 15%;
+    display: inline-block;
+}
+header .notification:hover{
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+/*navigation bar style  transform: rotate(140)*/
+nav{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    position: relative;
+    top:60px;
+    background-color: #ffffff;
+}
+nav .menu{
+    position: relative;
+    display: inline-block; 
+    width: 15%;
+    font-size: 1.2em;
+    text-align: center;
+    border: solid 1px;
+    margin: 0px 30px 10px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+/* nav #first{
+    margin:0px 25px 0px 30px;
+}
+nav #last{
+    margin: 0px 25px 0px 33px;
+} */
+nav .menu img{
+    position: absolute;
+    top:10px;
+    width: 12%;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+nav .menu #plane{
+    display: inline-block;
+    transform: rotate(310deg);
+}
+nav .menu:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* banner style */
+#banner{
+    position: absolute;
+    width: 96%;
+    top:150px;
+    right: 25px;
+    left: 25px;
+    border-radius: 20px;
+}
+#banner img{
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+#banner #search_bar{
+    position: absolute;
+    top: 250px;
+    left: 25%;
+    z-index: 1;  
+    width: 50%;
+}
+#banner #search_bar h2{
+    color: #000000;
+} 
+#banner #search_bar input{
+    width: 100%;
+}
+#banner .restro-list{
+    display: none;
+    list-style-type: none;
+    border: solid 1px;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 325px;
+    left: 25%;
+    background-color: #ffffff;
+    overflow: auto;
+}
+#banner .restro-list .restro-info{
+    display: none;
+    color: #000000;
+    border-bottom: solid 1px;
+    margin: 0px 10px;
+}
+/* Subtitle-1 style */
+#subtitle-1 h2{
+    position: absolute;
+    top:875px;
+    left: 41%;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 5px 20px;
+}
+
+
+/* main section style */
+main{
+    width: 96%;
+    height: 300px;
+    position: absolute;
+    top:900px;
+    left: 25px;
+    right: 25px;
+    border-top: solid 1px ;
+    margin-bottom: 20px;
+}
+main .card{
+    display: inline-block;
+    width: 20%;
+    margin: 30px 30px;
+    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+main .card .image{
+    width: 100%;
+    height: 70%;
+}
+main .card .image img{
+    width: 100%;
+}
+main .card .name{
+    display: block;
+}
+
+/* subtitle-2 style */
+#subtitle-2 h2{
+    position: absolute;
+    top:1220px;
+    left: 45%;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 5px 20px;
+}
+
+/* Review sectin style */
+#reviews{
+    position: absolute;
+    width: 96%;
+    height: 400px;
+    top:1250px;
+    left: 25px;
+    right: 25px;
+    border-top: solid 1px;
+}
+#reviews .review-card{
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin: 30px 30px;
+    padding: 5px;
+    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    overflow: auto;
+}
+#reviews .text{
+    color:#000000;
+
+}
+#reviews .author{
+    font-style: italic;
+    color: #cc6600;
+    float: right;
+}
+
+/* footer style */
+footer{
+    position: absolute;
+    top:1600px;
+    width: 100%;
+    margin: 10px auto 0px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+footer ul{
+    width: 70%;
+    white-space: nowrap;
+    list-style-type: none;
+    margin: 20px auto 0px ;
+}
+footer ul .links{
+    display: inline-block;
+    width:22%;
+    margin:0px 10px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+footer ul .links a img{
+    width: 15%;
+    margin: 0px auto;
+}
+footer ul .links a img:hover{
+    width:12%;
+    margin: 0px auto;
+}
+
+footer #copyright code{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #000000;
+    margin: 10px 0px 0px 0px;
+}
+

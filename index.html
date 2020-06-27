@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Guide</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>FoodGuide</h1>
+        </div>
+        
+        <img id="user" src="./icons/person-circle.svg" alt="user">
+        
+        <div class="notification">
+            <img src="./icons/heart.svg">
+            <span>Tips</span>&nbsp;
+        </div>
+
+        <div class="notification">
+            <img src="./icons/notifications.svg">
+            <span>Alerts</span>&nbsp;
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu" id="first">
+            <span>Hotels</span>&nbsp;&nbsp;&nbsp;
+            <img src="./icons/bed-outline.svg">
+        </div>
+        <div class="menu ">
+            <span>Flights</span>&nbsp;&nbsp;&nbsp;
+            <img src="./icons/airplane-outline.svg" id="plane">
+        </div>
+        <div class="menu ">
+            <span>Restaurants</span>&nbsp;&nbsp;&nbsp;
+            <img src="./icons/restaurant-outline.svg">
+        </div>
+        <div class="menu ">
+            <span>Attractions</span>&nbsp;&nbsp;&nbsp;
+            <img src="./icons/star-outline.svg">
+        </div>
+        <div class="menu" id="last">
+            <span>Write a review</span>&nbsp;&nbsp;&nbsp;
+            <img src="./icons/notifications-outline.svg">
+        </div>
+    </nav>
+    
+    <div id="banner">
+        <img src="./Images/img6.jpg" alt="Banner">
+        <div id="search_bar">
+            <h2>Find the good out there.</h2>
+            <form id="search-restro">
+                <input type="text"  placeholder="Where to?">
+            </form>          
+        </div>
+    </div>
+
+    <div id="subtitle-1">
+        <h2>Keep Planning</h2>
+    </div>
+
+    <main>
+        <div id="list">
+        </div>
+    </main>
+
+    <!-- content here will be shown if we use 2nd script -->
+    <div id="subtitle-2">
+        <h2>Reviews</h2>
+    </div>
+
+    <section id="reviews">
+        <p>Loading...</p>
+    </section>
+
+
+    <footer>
+        <ul id="contact">
+            <li class="links"><a href="https://www.instagram.com/"><img src="./icons/logo-instagram.svg" title="Instagram"></a></li> 
+            <li class="links"><a href="https://in.pinterest.com/"><img src="./icons/logo-pinterest.svg" title="Pinterest"></a></li>
+            <li class="links"><a href="https://twitter.com/explore"><img src="./icons/logo-twitter.svg" title="Twitter"></a></li>
+            <li class="links"><a href="https://www.facebook.com/"><img src="./icons/logo-facebook.svg" title="Facebook"></a></li>
+            <li id="copyright"><code>Copyright &copy; 2020 FoodGuide</code></li>         
+        </ul>
+    </footer>
+    
+    <script type="text/javascript" src="./app.js"></script>
+    <!-- <script type="text/javascript" src="./review.js"></script> -->
+
+
+
+    <!-- I designed this page in order to fetch data from 2-3 API's but as it was not working I used the data of one Api -->
+</body>
+</html>
